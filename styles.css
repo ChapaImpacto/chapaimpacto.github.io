@@ -45,6 +45,15 @@ body {
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 
+.background-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
 a {
   color: #8c6bff;
   text-decoration: none;
